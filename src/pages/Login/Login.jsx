@@ -12,7 +12,7 @@ const Login = () => {
     <Container>
 <Row>
         <Col>
-        <Card style={{ width: '18rem' }} className='card'>
+        <Card className='card'>
       <div className='Login-txt'>
         <h1>Login Form</h1>
       </div>
@@ -28,12 +28,12 @@ const Login = () => {
         </div>
       </div>
 
-      <div>
-      <Button variant="primary" className='btn'>Login</Button>
+      <div className='btnn-container'>
+      <Button variant="primary" className='btnn'>Login</Button>
       </div>
 
       <div className='lower-text'>
-        <h5>Dont have an account? <span style={{color:"#1E8BFF"}}> register here</span></h5>
+        <h6>Dont have an account? <span style={{color:"#1E8BFF"}}> register here</span></h6>
       </div>
     </Card>
         </Col>
